@@ -1,0 +1,21 @@
+l1=[2,4,3]
+l2=[5,6,4]
+rev1=l1[::-1]
+rev2=l2[::-1]
+# print(rev1,rev2) 
+b=""  
+for i in rev1:
+    # print(i)
+    b+=str(i)
+# print(b)
+c=""
+for j in rev2:
+    c+=str(j)   
+# print(c)
+total=int(b)+int(c)
+# print(total)
+li=[]
+for k in str(total):
+    # print(int(k))
+    li+=[int(k)]
+print(li[::-1])
