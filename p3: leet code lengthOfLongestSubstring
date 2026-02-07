@@ -1,0 +1,9 @@
+s="abcabcbb"
+b=""
+c=0
+for i in s:
+      if i in b:
+            b=b[b.index(i)+1:]
+      b+=i
+      c=max(c,len(b))
+print(c)
